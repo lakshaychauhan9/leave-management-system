@@ -3,10 +3,10 @@
 import { logout } from "@/lib/auth";
 import { Button } from "@/components/ui/button";
 
-export default function EmployeeDashboard() {
+export default function ManagerDashboard() {
   return (
     <div className="p-4">
-      <h1>Manager Dashboard</h1>
+      <h1>Manager Dashboard placeholder</h1>
       <Button onClick={logout}>Logout</Button>
     </div>
   );
